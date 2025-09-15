@@ -20,6 +20,7 @@ public class CmdRegistrar {
         mgr.register(new ForceOpenCmd(plugin));
         mgr.register(new ValidateCmd());
         mgr.register(new ReloadCmd());
+        mgr.register(new VersionCmd());
 
         cmd.setExecutor(mgr);
         cmd.setTabCompleter(mgr);
